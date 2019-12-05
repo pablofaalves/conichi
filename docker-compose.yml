@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  backend-challenge:
+    image: conichi/backend-challenge:0.0.1-SNAPSHOT
+    ports:
+      - 8081:8081
