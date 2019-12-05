@@ -35,7 +35,7 @@ public class VATNumberServiceImpl implements IVATNumberService {
 	/** Cron definition for scheduled evict operation on every Sunday at mid-night **/
 	private static final String CACHE_EVICT_SCHEDULE = "0 0 0 * * SUN";
 	
-	private VatApi apiInstance;
+	private VatApi apiInstance = new VatApi();
 	
 	@Override
 	@Cacheable
