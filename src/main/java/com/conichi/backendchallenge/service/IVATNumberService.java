@@ -19,5 +19,10 @@ public interface IVATNumberService {
 	 * @throws VATLookupApiException
 	 * @throws InvalidVATNumberException
 	 */
-	String getVatCountryCode(String vatNumber) throws VATLookupApiException, InvalidVATNumberException; 
+	String getVatCountryCode(String vatNumber) throws VATLookupApiException, InvalidVATNumberException;
+	
+	/**
+	 * Method for cache evict operation
+	 */
+	void clearVATCache();
 }
