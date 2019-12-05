@@ -6,7 +6,7 @@ This REST web services app contains 3 endpoints:
 - [/api/currency/convert] Provides currency convertion according to a source/target
 - [/api/vat/countrycode] Provides currency convertion according to a source/target
 
-This applications is also [SWAGGER] (http://localhost:8081/) Enabled. 
+This applications is also [SWAGGER](http://localhost:8081/) Enabled. 
 
 ## Requirements
 
@@ -27,4 +27,4 @@ mvn spring-boot:run
 
 ## Copyright
 
-Released under the Apache License 2.0. See the [LICENSE](https://github.com/codecentric/springboot-sample-app/blob/master/LICENSE) file.
+Released under the Apache License 2.0. See the [LICENSE](https://github.com/pablofaalves/conichi/backend-challenge/blob/master/LICENSE) file.
