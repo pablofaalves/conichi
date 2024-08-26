@@ -19,7 +19,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<io.springfox.swagger.version>2.9.2</io.springfox.swagger.version>
+		<io.springfox.swagger.version>2.10.0</io.springfox.swagger.version>
 		<io.springfox.annotatios.model.version>1.5.21</io.springfox.annotatios.model.version>
 		<com.github.cloudmersive.api.client>v2.75</com.github.cloudmersive.api.client>
 	</properties>
